@@ -1,0 +1,131 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`check color 1`] = `
+<Text
+  color="primary"
+  onPress={null}
+  p={false}
+  size="sm"
+  style={
+    Array [
+      Object {
+        "color": "#039BE5",
+        "fontSize": 14,
+        "fontWeight": "400",
+      },
+    ]
+  }
+  weight="normal"
+>
+  hello
+</Text>
+`;
+
+exports[`check onpress 1`] = `
+<Text
+  color="textColor"
+  onPress={[Function]}
+  p={false}
+  size="sm"
+  style={
+    Array [
+      Object {
+        "color": undefined,
+        "fontSize": 14,
+        "fontWeight": "400",
+        "textDecorationLine": "underline",
+      },
+    ]
+  }
+  weight="normal"
+>
+  hello
+</Text>
+`;
+
+exports[`check size 1`] = `
+<Text
+  color="textColor"
+  onPress={null}
+  p={false}
+  size="xxlg"
+  style={
+    Array [
+      Object {
+        "color": undefined,
+        "fontSize": 28,
+        "fontWeight": "400",
+      },
+    ]
+  }
+  weight="normal"
+>
+  hello
+</Text>
+`;
+
+exports[`check style 1`] = `
+<Text
+  color="textColor"
+  onPress={null}
+  p={false}
+  size="sm"
+  style={
+    Array [
+      Object {
+        "color": undefined,
+        "fontSize": 14,
+        "fontWeight": "400",
+      },
+      Object {
+        "textAlign": "center",
+      },
+    ]
+  }
+  weight="normal"
+>
+  hello
+</Text>
+`;
+
+exports[`check weight 1`] = `
+<Text
+  color="textColor"
+  onPress={null}
+  p={false}
+  size="sm"
+  style={
+    Array [
+      Object {
+        "color": undefined,
+        "fontSize": 14,
+        "fontWeight": "700",
+      },
+    ]
+  }
+  weight="bold"
+>
+  hello
+</Text>
+`;
+
+exports[`renders correctly 1`] = `
+<Text
+  color="primary"
+  onPress={null}
+  p={false}
+  size="sm"
+  style={
+    Array [
+      Object {
+        "color": "#039BE5",
+        "fontSize": 14,
+        "fontWeight": "700",
+      },
+    ]
+  }
+  weight="bold"
+>
+  hello
+</Text>
+`;
